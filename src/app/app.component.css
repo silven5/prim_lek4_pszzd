@@ -1,0 +1,43 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+p {
+  margin: 1%;
+}
+.flex-row {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.content {
+  width: 100%;
+}
+.box {
+  border: 1px var(--color) solid;
+  border-radius: 5%;
+  padding: 1%;
+  margin: 10px;
+  padding: 10px;
+}
+.button {
+  background-color: transparent;
+  margin: 10px 20px;
+  padding: 10px 30px;
+  border: 2px solid var(--btncolor);
+  color: var(--color);
+  transition: background-color 2s;
+  font-family: "Clicker Script", cursive;
+  font-weight: bolder;
+  font-size: 1.8vmax;
+  cursor: pointer !important;
+  outline: none;
+}
+
+.button:hover {
+  background-color: var(--btncolor);
+  color: black;
+  transition: background-color 2s;
+}

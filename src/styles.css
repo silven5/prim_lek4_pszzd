@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --color: rgb(162, 165, 170);
+  --bgcolor: rgb(5, 34, 68);
+  --btncolor: rgb(204, 248, 242);
+}
+body {
+  padding: 0;
+  margin: 0;
+  color: var(--color);
+  font-family: Lobster, cursive;
+  background-color: var(--bgcolor);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
